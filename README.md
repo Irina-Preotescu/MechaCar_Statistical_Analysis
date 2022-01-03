@@ -41,6 +41,12 @@
 * Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 
+![R_fig5](https://github.com/Irina-Preotescu/MechaCar_Statistical_Analysis/blob/ecface75f4d59565259e3476f4e4814e56f00fdb/R_fig5.png)
+
+
+![R_fig6](https://github.com/Irina-Preotescu/MechaCar_Statistical_Analysis/blob/ecface75f4d59565259e3476f4e4814e56f00fdb/R_fig6.png)
+
+
 
 ## Study Design: MechaCar vs Competition
 
