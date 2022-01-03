@@ -34,6 +34,9 @@
 
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+1. Lot 1 has the true mean of 1500. With a p-Value of 1, we fail to reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+2. Lot 2 has essentially the mean of 1500.02 and a p-Value of 0.61. We therefore fail to reject the null hypothesis.
+3. Lot 3 has a sample mean of 1496.14 and the p-Value of 0.04, which is lower than the significance level of 0.05. We can therefore reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 
 
 ## T-Tests on Suspension Coils
@@ -57,3 +60,20 @@ In your description, address the following questions:
 - What is the null hypothesis or alternative hypothesis?
 - What statistical test would you use to test the hypothesis? And why?
 - What data is needed to run the statistical test?
+
+
+This study would involve collecting data on MechaCar across several different competing manufacturers over the last 5 years.
+
+Metrics:
+Safety rating: Independent Variable
+Maintenance cost: Dependent Variable
+Horse power : Independent Variable
+Engine (Electric, Hybrid, Conventional): Independent Variable
+Cost: Independent Variable
+
+Hypotheses:
+Null Hypothesis (H0) - Electric MechaCars have a lower maintenance cost over time than comparable models from its competitors.
+Alternative Hypothesis (Ha) - Electric MechaCars have an equal or higher maintenance cost over time than comparable models from its competitors.
+
+Model:
+We would use a multiple linear regression model to examine the maintenance cost of electric MechaCars over time in comparison to its competitors.
